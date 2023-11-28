@@ -32,7 +32,7 @@ p {
 }
 
 .mv {
-  background: url('public/images/notion_LP.png') no-repeat center center;
+  background: url('../images/notion_LP.png') no-repeat center center;
   background-size: cover;
   position: relative;
   color: white;
