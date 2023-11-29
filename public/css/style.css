@@ -61,16 +61,28 @@ p {
   z-index: 2;
 }
 
-button {
+.lp-button {
   background-color: #008f68;
-  color: #ffffff;
+  /* ボタンの基本色 */
+  color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px;
   font-size: 1.2em;
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+  /* 色とサイズの変化にトランジション効果を追加 */
 }
+
+.lp-button:hover {
+  background-color: white;
+  font-weight: 700;
+  color: #008f68;
+  /* ホバー時に暗く */
+  transform: scale(1.2);
+  /* ホバー時に少し大きく */
+}
+
 
 @media (max-width: 768px) {
   .mv {
